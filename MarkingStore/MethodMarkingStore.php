@@ -48,13 +48,7 @@ final class MethodMarkingStore implements MarkingStoreInterface
      */
     public function getMarking(object $subject): Marking
     {
-        $method = 'get'.ucfirst($this->property);
-
-        if (!method_exists($subject, $method)) {
-            throw new LogicException(sprintf('The method "%s::%s()" does not exist.', get_debug_type($subject), $method));
-        }
-
-        $marking = $subject->{$method}();
+        $marking = $subject->{$this->property};
 
         if (null === $marking) {
             return new Marking();
@@ -78,12 +72,6 @@ final class MethodMarkingStore implements MarkingStoreInterface
             $marking = key($marking);
         }
 
-        $method = 'set'.ucfirst($this->property);
-
-        if (!method_exists($subject, $method)) {
-            throw new LogicException(sprintf('The method "%s::%s()" does not exist.', get_debug_type($subject), $method));
-        }
-
-        $subject->{$method}($marking, $context);
+        $subject->{$this->property} = $marking;
     }
 }
