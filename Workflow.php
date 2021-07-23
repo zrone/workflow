@@ -428,7 +428,7 @@ class Workflow implements WorkflowInterface
         $this->dispatcher->dispatch($event, WorkflowEvents::ANNOUNCE);
         // 执行自定义事件
         if (is_array($logicEvent = $initialTransition->getEvent()) && method_exists($logicEvent[0], $logicEvent[1])) {
-            call_user_func($logicEvent, $event);
+            call_user_func(array(new $logicEvent[0], $logicEvent[1]), $event);
         }
     }
 
