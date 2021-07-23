@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\EventListener;
+namespace Zrone\Component\Workflow\EventListener;
 
 use Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolverInterface;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 use Symfony\Component\Security\Core\Role\RoleHierarchyInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
-use Symfony\Component\Workflow\Event\GuardEvent;
-use Symfony\Component\Workflow\TransitionBlocker;
+use Zrone\Component\Workflow\Event\GuardEvent;
+use Zrone\Component\Workflow\TransitionBlocker;
 
 /**
  * @author Grégoire Pineau <lyrixx@lyrixx.info>

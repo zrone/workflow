@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
 /**
  * Marking contains the place of every tokens.

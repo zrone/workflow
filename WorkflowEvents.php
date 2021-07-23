@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
-use Symfony\Component\Workflow\Event\AnnounceEvent;
-use Symfony\Component\Workflow\Event\CompletedEvent;
-use Symfony\Component\Workflow\Event\EnteredEvent;
-use Symfony\Component\Workflow\Event\EnterEvent;
-use Symfony\Component\Workflow\Event\GuardEvent;
-use Symfony\Component\Workflow\Event\LeaveEvent;
-use Symfony\Component\Workflow\Event\TransitionEvent;
+use Zrone\Component\Workflow\Event\AnnounceEvent;
+use Zrone\Component\Workflow\Event\CompletedEvent;
+use Zrone\Component\Workflow\Event\EnteredEvent;
+use Zrone\Component\Workflow\Event\EnterEvent;
+use Zrone\Component\Workflow\Event\GuardEvent;
+use Zrone\Component\Workflow\Event\LeaveEvent;
+use Zrone\Component\Workflow\Event\TransitionEvent;
 
 /**
  * To learn more about how workflow events work, check the documentation

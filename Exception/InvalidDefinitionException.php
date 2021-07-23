@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Exception;
+namespace Zrone\Component\Workflow\Exception;
 
 /**
  * Thrown by the DefinitionValidatorInterface when the definition is invalid.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests;
+namespace Zrone\Component\Workflow\Tests;
 
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Metadata\InMemoryMetadataStore;
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Metadata\InMemoryMetadataStore;
+use Zrone\Component\Workflow\Transition;
 
 trait WorkflowBuilderTrait
 {

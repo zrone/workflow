@@ -1,11 +1,11 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests\MarkingStore;
+namespace Zrone\Component\Workflow\Tests\MarkingStore;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\MarkingStore\MethodMarkingStore;
-use Symfony\Component\Workflow\Tests\Subject;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\MarkingStore\MethodMarkingStore;
+use Zrone\Component\Workflow\Tests\Subject;
 
 class MethodMarkingStoreTest extends TestCase
 {

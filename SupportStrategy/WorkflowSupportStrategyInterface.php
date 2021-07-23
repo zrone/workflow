@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\SupportStrategy;
+namespace Zrone\Component\Workflow\SupportStrategy;
 
-use Symfony\Component\Workflow\WorkflowInterface;
+use Zrone\Component\Workflow\WorkflowInterface;
 
 /**
  * @author Amrouche Hamza <hamza.simperfit@gmail.com>

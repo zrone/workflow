@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Dumper;
+namespace Zrone\Component\Workflow\Dumper;
 
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Marking;
 
 /**
  * GraphvizDumper dumps a workflow as a graphviz file.

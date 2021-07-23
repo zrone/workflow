@@ -1,5 +1,5 @@
 {
-    "name": "symfony/workflow",
+    "name": "zrone/workflow",
     "type": "library",
     "description": "Provides tools for managing a workflow or finite state machine",
     "keywords": ["workflow", "petrinet", "place", "transition", "statemachine", "state"],
@@ -35,7 +35,7 @@
         "symfony/event-dispatcher": "<4.4"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\Workflow\\": "" }
+        "psr-4": { "Zrone\\Component\\Workflow\\": "" }
     },
     "minimum-stability": "dev"
 }

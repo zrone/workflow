@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Metadata;
+namespace Zrone\Component\Workflow\Metadata;
 
-use Symfony\Component\Workflow\Exception\InvalidArgumentException;
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Exception\InvalidArgumentException;
+use Zrone\Component\Workflow\Transition;
 
 /**
  * @author Grégoire Pineau <lyrixx@lyrixx.info>

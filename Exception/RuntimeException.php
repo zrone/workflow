@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Exception;
+namespace Zrone\Component\Workflow\Exception;
 
 /**
  * Base RuntimeException for the Workflow component.

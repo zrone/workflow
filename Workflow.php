@@ -9,21 +9,21 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
-use Symfony\Component\Workflow\Event\AnnounceEvent;
-use Symfony\Component\Workflow\Event\CompletedEvent;
-use Symfony\Component\Workflow\Event\EnteredEvent;
-use Symfony\Component\Workflow\Event\EnterEvent;
-use Symfony\Component\Workflow\Event\GuardEvent;
-use Symfony\Component\Workflow\Event\LeaveEvent;
-use Symfony\Component\Workflow\Event\TransitionEvent;
-use Symfony\Component\Workflow\Exception\LogicException;
-use Symfony\Component\Workflow\Exception\NotEnabledTransitionException;
-use Symfony\Component\Workflow\Exception\UndefinedTransitionException;
-use Symfony\Component\Workflow\MarkingStore\MarkingStoreInterface;
-use Symfony\Component\Workflow\MarkingStore\MethodMarkingStore;
-use Symfony\Component\Workflow\Metadata\MetadataStoreInterface;
+use Zrone\Component\Workflow\Event\AnnounceEvent;
+use Zrone\Component\Workflow\Event\CompletedEvent;
+use Zrone\Component\Workflow\Event\EnteredEvent;
+use Zrone\Component\Workflow\Event\EnterEvent;
+use Zrone\Component\Workflow\Event\GuardEvent;
+use Zrone\Component\Workflow\Event\LeaveEvent;
+use Zrone\Component\Workflow\Event\TransitionEvent;
+use Zrone\Component\Workflow\Exception\LogicException;
+use Zrone\Component\Workflow\Exception\NotEnabledTransitionException;
+use Zrone\Component\Workflow\Exception\UndefinedTransitionException;
+use Zrone\Component\Workflow\MarkingStore\MarkingStoreInterface;
+use Zrone\Component\Workflow\MarkingStore\MethodMarkingStore;
+use Zrone\Component\Workflow\Metadata\MetadataStoreInterface;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 /**

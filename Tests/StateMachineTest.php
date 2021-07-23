@@ -1,13 +1,13 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests;
+namespace Zrone\Component\Workflow\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Symfony\Component\Workflow\Event\GuardEvent;
-use Symfony\Component\Workflow\Exception\NotEnabledTransitionException;
-use Symfony\Component\Workflow\StateMachine;
-use Symfony\Component\Workflow\TransitionBlocker;
+use Zrone\Component\Workflow\Event\GuardEvent;
+use Zrone\Component\Workflow\Exception\NotEnabledTransitionException;
+use Zrone\Component\Workflow\StateMachine;
+use Zrone\Component\Workflow\TransitionBlocker;
 
 class StateMachineTest extends TestCase
 {

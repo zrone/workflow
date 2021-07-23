@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
-use Symfony\Component\Workflow\MarkingStore\MarkingStoreInterface;
-use Symfony\Component\Workflow\MarkingStore\MethodMarkingStore;
+use Zrone\Component\Workflow\MarkingStore\MarkingStoreInterface;
+use Zrone\Component\Workflow\MarkingStore\MethodMarkingStore;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 /**

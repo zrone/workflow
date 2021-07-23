@@ -41,8 +41,8 @@ CHANGELOG
  * The `TransitionEvent` is able to modify the context.
  * Add style to transitions by declaring metadata:
 
-    use Symfony\Component\Workflow\Definition;
-    use Symfony\Component\Workflow\Metadata\InMemoryMetadataStore;
+    use Zrone\Component\Workflow\Definition;
+    use Zrone\Component\Workflow\Metadata\InMemoryMetadataStore;
 
     $transitionsMetadata = new \SplObjectStorage();
     $transitionsMetadata[$transition] = [

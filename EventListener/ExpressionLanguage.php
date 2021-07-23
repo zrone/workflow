@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\EventListener;
+namespace Zrone\Component\Workflow\EventListener;
 
 use Symfony\Component\Security\Core\Authorization\ExpressionLanguage as BaseExpressionLanguage;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
-use Symfony\Component\Workflow\Exception\RuntimeException;
+use Zrone\Component\Workflow\Exception\RuntimeException;
 
 /**
  * Adds some function to the default Symfony Security ExpressionLanguage.

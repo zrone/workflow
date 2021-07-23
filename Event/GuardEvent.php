@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Event;
+namespace Zrone\Component\Workflow\Event;
 
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\Transition;
-use Symfony\Component\Workflow\TransitionBlocker;
-use Symfony\Component\Workflow\TransitionBlockerList;
-use Symfony\Component\Workflow\WorkflowInterface;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Transition;
+use Zrone\Component\Workflow\TransitionBlocker;
+use Zrone\Component\Workflow\TransitionBlockerList;
+use Zrone\Component\Workflow\WorkflowInterface;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

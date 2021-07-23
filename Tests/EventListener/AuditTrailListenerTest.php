@@ -1,15 +1,15 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests\EventListener;
+namespace Zrone\Component\Workflow\Tests\EventListener;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\AbstractLogger;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Symfony\Component\Workflow\EventListener\AuditTrailListener;
-use Symfony\Component\Workflow\MarkingStore\MethodMarkingStore;
-use Symfony\Component\Workflow\Tests\Subject;
-use Symfony\Component\Workflow\Tests\WorkflowBuilderTrait;
-use Symfony\Component\Workflow\Workflow;
+use Zrone\Component\Workflow\EventListener\AuditTrailListener;
+use Zrone\Component\Workflow\MarkingStore\MethodMarkingStore;
+use Zrone\Component\Workflow\Tests\Subject;
+use Zrone\Component\Workflow\Tests\WorkflowBuilderTrait;
+use Zrone\Component\Workflow\Workflow;
 
 class AuditTrailListenerTest extends TestCase
 {

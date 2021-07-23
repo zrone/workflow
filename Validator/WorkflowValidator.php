@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Validator;
+namespace Zrone\Component\Workflow\Validator;
 
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Exception\InvalidDefinitionException;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Exception\InvalidDefinitionException;
 
 /**
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>

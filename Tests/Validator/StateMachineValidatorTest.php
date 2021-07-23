@@ -1,12 +1,12 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests\Validator;
+namespace Zrone\Component\Workflow\Tests\Validator;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Exception\InvalidDefinitionException;
-use Symfony\Component\Workflow\Transition;
-use Symfony\Component\Workflow\Validator\StateMachineValidator;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Exception\InvalidDefinitionException;
+use Zrone\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Validator\StateMachineValidator;
 
 class StateMachineValidatorTest extends TestCase
 {

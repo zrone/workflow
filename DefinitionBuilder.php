@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
-use Symfony\Component\Workflow\Metadata\MetadataStoreInterface;
+use Zrone\Component\Workflow\Metadata\MetadataStoreInterface;
 
 /**
  * Builds a definition.

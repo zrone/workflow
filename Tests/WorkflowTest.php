@@ -1,23 +1,23 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests;
+namespace Zrone\Component\Workflow\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Event\Event;
-use Symfony\Component\Workflow\Event\GuardEvent;
-use Symfony\Component\Workflow\Event\TransitionEvent;
-use Symfony\Component\Workflow\Exception\LogicException;
-use Symfony\Component\Workflow\Exception\NotEnabledTransitionException;
-use Symfony\Component\Workflow\Exception\UndefinedTransitionException;
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\MarkingStore\MarkingStoreInterface;
-use Symfony\Component\Workflow\MarkingStore\MethodMarkingStore;
-use Symfony\Component\Workflow\Transition;
-use Symfony\Component\Workflow\TransitionBlocker;
-use Symfony\Component\Workflow\Workflow;
-use Symfony\Component\Workflow\WorkflowEvents;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Event\Event;
+use Zrone\Component\Workflow\Event\GuardEvent;
+use Zrone\Component\Workflow\Event\TransitionEvent;
+use Zrone\Component\Workflow\Exception\LogicException;
+use Zrone\Component\Workflow\Exception\NotEnabledTransitionException;
+use Zrone\Component\Workflow\Exception\UndefinedTransitionException;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\MarkingStore\MarkingStoreInterface;
+use Zrone\Component\Workflow\MarkingStore\MethodMarkingStore;
+use Zrone\Component\Workflow\Transition;
+use Zrone\Component\Workflow\TransitionBlocker;
+use Zrone\Component\Workflow\Workflow;
+use Zrone\Component\Workflow\WorkflowEvents;
 
 class WorkflowTest extends TestCase
 {

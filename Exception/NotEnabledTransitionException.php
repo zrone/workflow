@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Exception;
+namespace Zrone\Component\Workflow\Exception;
 
-use Symfony\Component\Workflow\TransitionBlockerList;
-use Symfony\Component\Workflow\WorkflowInterface;
+use Zrone\Component\Workflow\TransitionBlockerList;
+use Zrone\Component\Workflow\WorkflowInterface;
 
 /**
  * Thrown by Workflow when a not enabled transition is applied on a subject.

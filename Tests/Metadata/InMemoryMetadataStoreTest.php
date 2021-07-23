@@ -1,11 +1,11 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests\Metadata;
+namespace Zrone\Component\Workflow\Tests\Metadata;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Exception\InvalidArgumentException;
-use Symfony\Component\Workflow\Metadata\InMemoryMetadataStore;
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Exception\InvalidArgumentException;
+use Zrone\Component\Workflow\Metadata\InMemoryMetadataStore;
+use Zrone\Component\Workflow\Transition;
 
 /**
  * @author Grégoire Pineau <lyrixx@lyrixx.info>

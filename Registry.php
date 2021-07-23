@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
-use Symfony\Component\Workflow\Exception\InvalidArgumentException;
-use Symfony\Component\Workflow\SupportStrategy\WorkflowSupportStrategyInterface;
+use Zrone\Component\Workflow\Exception\InvalidArgumentException;
+use Zrone\Component\Workflow\SupportStrategy\WorkflowSupportStrategyInterface;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Tests\Dumper;
+namespace Zrone\Component\Workflow\Tests\Dumper;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\DefinitionBuilder;
-use Symfony\Component\Workflow\Dumper\MermaidDumper;
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\Tests\WorkflowBuilderTrait;
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\DefinitionBuilder;
+use Zrone\Component\Workflow\Dumper\MermaidDumper;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Tests\WorkflowBuilderTrait;
+use Zrone\Component\Workflow\Transition;
 
 class MermaidDumperTest extends TestCase
 {

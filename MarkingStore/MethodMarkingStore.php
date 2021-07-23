@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\MarkingStore;
+namespace Zrone\Component\Workflow\MarkingStore;
 
-use Symfony\Component\Workflow\Exception\LogicException;
-use Symfony\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Exception\LogicException;
+use Zrone\Component\Workflow\Marking;
 
 /**
  * MethodMarkingStore stores the marking with a subject's method.

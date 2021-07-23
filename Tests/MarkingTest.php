@@ -1,9 +1,9 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests;
+namespace Zrone\Component\Workflow\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Marking;
 
 class MarkingTest extends TestCase
 {

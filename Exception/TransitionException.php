@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Exception;
+namespace Zrone\Component\Workflow\Exception;
 
-use Symfony\Component\Workflow\WorkflowInterface;
+use Zrone\Component\Workflow\WorkflowInterface;
 
 /**
  * @author Andrew Tch <andrew.tchircoff@gmail.com>

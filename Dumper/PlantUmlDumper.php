@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Dumper;
+namespace Zrone\Component\Workflow\Dumper;
 
 use InvalidArgumentException;
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\Metadata\MetadataStoreInterface;
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Metadata\MetadataStoreInterface;
+use Zrone\Component\Workflow\Transition;
 
 /**
  * PlantUmlDumper dumps a workflow as a PlantUML file.

@@ -1,14 +1,14 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests;
+namespace Zrone\Component\Workflow\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Definition;
-use Symfony\Component\Workflow\Exception\InvalidArgumentException;
-use Symfony\Component\Workflow\MarkingStore\MarkingStoreInterface;
-use Symfony\Component\Workflow\Registry;
-use Symfony\Component\Workflow\SupportStrategy\WorkflowSupportStrategyInterface;
-use Symfony\Component\Workflow\Workflow;
+use Zrone\Component\Workflow\Definition;
+use Zrone\Component\Workflow\Exception\InvalidArgumentException;
+use Zrone\Component\Workflow\MarkingStore\MarkingStoreInterface;
+use Zrone\Component\Workflow\Registry;
+use Zrone\Component\Workflow\SupportStrategy\WorkflowSupportStrategyInterface;
+use Zrone\Component\Workflow\Workflow;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class RegistryTest extends TestCase

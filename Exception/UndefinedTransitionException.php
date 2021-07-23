@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Exception;
+namespace Zrone\Component\Workflow\Exception;
 
-use Symfony\Component\Workflow\WorkflowInterface;
+use Zrone\Component\Workflow\WorkflowInterface;
 
 /**
  * Thrown by Workflow when an undefined transition is applied on a subject.

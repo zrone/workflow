@@ -1,10 +1,10 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests\SupportStrategy;
+namespace Zrone\Component\Workflow\Tests\SupportStrategy;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\SupportStrategy\InstanceOfSupportStrategy;
-use Symfony\Component\Workflow\Workflow;
+use Zrone\Component\Workflow\SupportStrategy\InstanceOfSupportStrategy;
+use Zrone\Component\Workflow\Workflow;
 
 class InstanceOfSupportStrategyTest extends TestCase
 {

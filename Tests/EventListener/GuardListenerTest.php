@@ -1,6 +1,6 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests\EventListener;
+namespace Zrone\Component\Workflow\Tests\EventListener;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolverInterface;
@@ -11,14 +11,14 @@ use Symfony\Component\Security\Core\Role\RoleHierarchy;
 use Symfony\Component\Validator\ConstraintViolation;
 use Symfony\Component\Validator\ConstraintViolationList;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
-use Symfony\Component\Workflow\Event\GuardEvent;
-use Symfony\Component\Workflow\EventListener\ExpressionLanguage;
-use Symfony\Component\Workflow\EventListener\GuardExpression;
-use Symfony\Component\Workflow\EventListener\GuardListener;
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\Tests\Subject;
-use Symfony\Component\Workflow\Transition;
-use Symfony\Component\Workflow\WorkflowInterface;
+use Zrone\Component\Workflow\Event\GuardEvent;
+use Zrone\Component\Workflow\EventListener\ExpressionLanguage;
+use Zrone\Component\Workflow\EventListener\GuardExpression;
+use Zrone\Component\Workflow\EventListener\GuardListener;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Tests\Subject;
+use Zrone\Component\Workflow\Transition;
+use Zrone\Component\Workflow\WorkflowInterface;
 
 class GuardListenerTest extends TestCase
 {

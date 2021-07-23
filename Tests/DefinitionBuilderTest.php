@@ -1,11 +1,11 @@
 <?php
 
-namespace Symfony\Component\Workflow\Tests;
+namespace Zrone\Component\Workflow\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\DefinitionBuilder;
-use Symfony\Component\Workflow\Metadata\InMemoryMetadataStore;
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\DefinitionBuilder;
+use Zrone\Component\Workflow\Metadata\InMemoryMetadataStore;
+use Zrone\Component\Workflow\Transition;
 
 class DefinitionBuilderTest extends TestCase
 {

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\EventListener;
+namespace Zrone\Component\Workflow\EventListener;
 
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Transition;
 
 class GuardExpression
 {

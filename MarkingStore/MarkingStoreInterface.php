@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\MarkingStore;
+namespace Zrone\Component\Workflow\MarkingStore;
 
-use Symfony\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Marking;
 
 /**
  * MarkingStoreInterface is the interface between the Workflow Component and a

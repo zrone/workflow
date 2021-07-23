@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow;
+namespace Zrone\Component\Workflow;
 
-use Symfony\Component\Workflow\Exception\LogicException;
-use Symfony\Component\Workflow\MarkingStore\MarkingStoreInterface;
-use Symfony\Component\Workflow\Metadata\MetadataStoreInterface;
+use Zrone\Component\Workflow\Exception\LogicException;
+use Zrone\Component\Workflow\MarkingStore\MarkingStoreInterface;
+use Zrone\Component\Workflow\Metadata\MetadataStoreInterface;
 
 /**
  * @author Amrouche Hamza <hamza.simperfit@gmail.com>

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Event;
+namespace Zrone\Component\Workflow\Event;
 
 final class TransitionEvent extends Event
 {

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Metadata;
+namespace Zrone\Component\Workflow\Metadata;
 
-use Symfony\Component\Workflow\Transition;
+use Zrone\Component\Workflow\Transition;
 
 /**
  * MetadataStoreInterface is able to fetch metadata for a specific workflow.

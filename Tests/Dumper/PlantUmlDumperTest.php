@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Tests\Dumper;
+namespace Zrone\Component\Workflow\Tests\Dumper;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Workflow\Dumper\PlantUmlDumper;
-use Symfony\Component\Workflow\Marking;
-use Symfony\Component\Workflow\Tests\WorkflowBuilderTrait;
+use Zrone\Component\Workflow\Dumper\PlantUmlDumper;
+use Zrone\Component\Workflow\Marking;
+use Zrone\Component\Workflow\Tests\WorkflowBuilderTrait;
 
 class PlantUmlDumperTest extends TestCase
 {

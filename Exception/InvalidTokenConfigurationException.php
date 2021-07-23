@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\Workflow\Exception;
+namespace Zrone\Component\Workflow\Exception;
 
 trigger_deprecation('symfony/workflow', '5.3', 'The "%s" class is deprecated.', InvalidTokenConfigurationException::class);
 
