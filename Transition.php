@@ -28,7 +28,7 @@ class Transition
      * @param string|string[] $tos
      * @param array $event
      */
-    public function __construct(string $name, $froms, $tos, $event)
+    public function __construct(string $name, $froms, $tos, $event = null)
     {
         $this->name = $name;
         $this->froms = (array)$froms;
